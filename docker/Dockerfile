@@ -8,4 +8,4 @@ USER jovyan
 
 RUN pip install  --no-cache-dir pyspark pandas pyarrow
 
-COPY notebooks /home/jovyan
+COPY notebooks /home/jovyan/
