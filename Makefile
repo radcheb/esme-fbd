@@ -7,6 +7,9 @@ resume:
 stop:
 	docker stop esme-tp-environment
 
-
 clean: stop
 	docker rm esme-tp-environment
+
+build:
+	docker build -t radcheb/esme-tp-image -f docker/Dockerfile .
+
